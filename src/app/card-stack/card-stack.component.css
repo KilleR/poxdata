@@ -1,0 +1,25 @@
+.rune {
+  position: absolute;
+}
+
+.rune.shadow {
+  width: 236px;
+  height: 290px;
+  background: url("../../assets/gameui/runes_ingame_frames/frame_shadow.png") no-repeat;
+}
+
+.rune.frame {
+  width: 220px;
+  height: 277px;
+}
+
+.rune.faction {
+  width: 220px;
+  height: 277px;
+}
+
+.rune.spikes {
+  width: 227px;
+  height: 289px;
+  background: url("../../assets/gameui/runes_ingame_frames/top_spikes.png") no-repeat;
+}

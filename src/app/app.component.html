@@ -1,6 +1,15 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+<div>
   content
+  <div style="border:1px solid black; padding: 12px" poxDraggable>Draggable content?</div>
+  <form>
+    <label>
+      Rarity
+      <input [(ngModel)]="rarity" [ngModelOptions]="{standalone:true}"/>
+    </label>
+  </form>
+  {{rarity}}
+  <pox-card-stack [rarity]="rarity"></pox-card-stack>
 </div>
 
 <router-outlet></router-outlet>
